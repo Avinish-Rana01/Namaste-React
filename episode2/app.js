@@ -21,8 +21,9 @@ const heading = React.createElement(
         React.createElement("h2", { id: "heading4", key: "h2b" }, "React2")
       ]
     )
-  ]
+  ] 
 ); 
-
+console.log(heading)
 const root = ReactDOM.createRoot(document.getElementById("root"));
+console.log('root',root.render)
 root.render(heading);
